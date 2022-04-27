@@ -37,3 +37,5 @@ Unzip the zip file and put all these three files together in the same folder.
 Same as ie4w11.vbs.
 
 
+## Dependencies:  
+Microsoft.NET Framework v2.0
