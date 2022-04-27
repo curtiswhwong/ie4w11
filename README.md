@@ -14,7 +14,7 @@ The default script engine for Windows is wscript.exe. If you have changed the de
 ## Disclaimer
 This software is provided as-is with no warranty. I am not an expert and I am not liable for any accidental damage to your hardware, systems or files. The software has access to disks and partitions, and it can erase a disk if something goes wrong.  
 
-You are free to use the software, or edit the script for your needs. Any part of or the whole script are not allowed be integrated to any paid software without prior permission. If you'd like permission to do so, please contact me.  
+You are free to use the software, or edit the script for your needs, in both non-commercial and commercial use.  
 
 ## ie4w11.vbs  
 Main vbscript for running the native Internet Explorer on Windows 11
