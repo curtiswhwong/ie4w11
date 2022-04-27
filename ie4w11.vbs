@@ -4,7 +4,7 @@
 '* File:        ie4w11.vbs
 '* Created on:  27 April 2022
 '* Modified on: 27 April 2022
-'* Version:     1.0.0.0
+'* Version:     1.0.0
 '* Aim:         Open native Internet Explorer on Windows 11
 '*
 '* Copyright (C) 2022 Curtis Wong
