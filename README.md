@@ -25,7 +25,10 @@ Start Internet Explorer with https://self-url.
 
 ## ie4w11.exe.zip  
 **Inside the zip file**  
-This zip file contains ie4w11.exe, ie4w11.dll and ie4w11.exe.manifest.  
+This zip file contains  
+- ie4w11.exe
+- ie4w11.dll
+- ie4w11.exe.manifest  
 
 **Complier**  
 ie4w11.exe is complied by VbsEdit from ie4w11.vbs.  
