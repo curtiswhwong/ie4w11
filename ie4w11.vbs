@@ -11,7 +11,7 @@
 '*
 '************************************************************************************
 Option Explicit
-'On Error Resume Next
+On Error Resume Next
 '********************************
 ' Define constants and variables
 '********************************
