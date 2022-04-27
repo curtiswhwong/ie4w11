@@ -6,7 +6,10 @@ By default, Windows 11 will redirect all Internet Explorer instances to the Edge
 
 I am working in a hotel as an IT. A core application must be run on Internet Explorer with JRE installed but the Edge browser cannot handle. Thus, I made this vbscript for running native Internet Explorer on Windows 11 which also supports URL as a parameter.  
 
-While starting the ie4w11.vbs, it will terminate all hidden iexplore.exe and ielowutil.exe before creating a new instance of iexplore.exe.
+While starting ie4w11.vbs, it will terminate all hidden iexplore.exe and ielowutil.exe before creating a new instance of iexplore.exe.  
+
+Note:  
+The default script engine for Windows is wscript.exe. If you have changed the default engine to cscript.exe, a black console window will be pop-up. You can suppress this black console window by creating a shortcut and type "wscript.exe ie4w11.vbs" as the target.  
 
 ## ie4w11.vbs  
 Main vbscript for running the native Internet Explorer on Windows 11
@@ -33,7 +36,7 @@ This zip file contains
 - ie4w11.exe.manifest  
 
 ## ie4w11.exe  
-ie4w11.exe is complied by VbsEdit from ie4w11.vbs.  
+ie4w11.exe is complied by VbsEdit from ie4w11.vbs which does the same thing as ie4w11.vbs.  
 
 **Usage**  
 Unzip the zip file and put all these three files together in the same folder.  
