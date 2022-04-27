@@ -9,7 +9,7 @@ I am working in a hotel as an IT. A core application must be run on Internet Exp
 ## ie4w11.vbs  
 Main vbscript for running the native Internet Explorer on Windows 11
 
-Syntax:  
+**Syntax**  
 **ie4w11.vbs**  
 Start Internet Explorer with a preset homepage. It will look for the homepage from the following locations.  
 - HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\Start Page  
@@ -21,4 +21,19 @@ Start Internet Explorer with a preset homepage. It will look for the homepage fr
 If no homepage is found, the homepage will be default to about:blank  
 
 **ie4w11.vbs https://self-url**  
-Start Internet Explorer with https://self-url.
+Start Internet Explorer with https://self-url.  
+
+## ie4w11.exe.zip  
+**Inside the zip file**  
+This zip file contains ie4w11.exe, ie4w11.dll and ie4w11.exe.manifest.  
+
+**Complier**  
+ie4w11.exe is complied by VbsEdit from ie4w11.vbs.  
+
+**Usage**  
+Unzip the zip file and put all these three files together in the same folder.  
+
+**Syntax**  
+Same as ie4w11.vbs.
+
+
