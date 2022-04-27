@@ -17,11 +17,11 @@ Main vbscript for running the native Internet Explorer on Windows 11
 **Syntax**  
 **ie4w11.vbs**  
 Start Internet Explorer with a homepage. It will look for the homepage from the following locations and sequence.  
-- HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\Start Page  
-- HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\Start Page  
-- HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge\HomepageLocation  
-- HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge\Recommended\HomepageLocation  
-- HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Internet Settings\HomeButtonURL  
+1. HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\Start Page  
+2. HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\Start Page  
+3. HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge\HomepageLocation  
+4. HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge\Recommended\HomepageLocation  
+5. HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Internet Settings\HomeButtonURL  
 
 If no homepage is found, the homepage will be default to about:blank  
 
