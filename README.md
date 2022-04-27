@@ -2,7 +2,7 @@
 
 Hello all!  
 
-By default, Windows 11 will redirect all Internet Explorer instances to the Edge browser unless you add the URLs to "Internet Explorer mode pages" but only for 30 days, and you have to extend the expiry every 30 days which is very inconvenient.  
+By default, Windows 11 will redirect all Internet Explorer instances to the Edge browser unless you add the URLs to "Internet Explorer mode pages" but only for 30 days, and you have to extend the expiry day every 30 days which is very inconvenient.  
 
 I am working in a hotel as an IT. A core application must be run on Internet Explorer with JRE installed but the Edge browser cannot handle. Thus, I made this vbscript for running native Internet Explorer on Windows 11 which also supports URL as a parameter.  
 
