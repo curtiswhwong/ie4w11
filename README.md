@@ -29,17 +29,16 @@ If no homepage is found, the homepage will be default to about:blank
 Start Internet Explorer with https://self-url.  
 
 ## ie4w11.exe.zip  
-**Inside the zip file**  
 This zip file contains  
 - ie4w11.exe
 - ie4w11.dll
 - ie4w11.exe.manifest  
 
-## ie4w11.exe  
-ie4w11.exe is complied by VbsEdit from ie4w11.vbs which does the same thing as ie4w11.vbs.  
-
 **Usage**  
 Unzip the zip file and put all these three files together in the same folder.  
+
+## ie4w11.exe  
+ie4w11.exe is complied by VbsEdit from ie4w11.vbs which does the same thing as ie4w11.vbs.  
 
 **Syntax**  
 Same as ie4w11.vbs.
