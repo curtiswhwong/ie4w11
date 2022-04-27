@@ -122,12 +122,12 @@ Else
     arrReg.Add RegPath("SOFTWARE\Policies\Microsoft\Edge\Recommended", "HomepageLocation")
     arrReg.Add RegPath("SOFTWARE\Policies\Microsoft\MicrosoftEdge\Internet Settings", "HomeButtonURL")
 
-	' *********************************
-	' Get Internet Explorer Start Page
-	' *********************************
-	Dim objReg, RegTree, ErrorCode
+    ' *********************************
+    ' Get Internet Explorer Start Page
+    ' *********************************
+    Dim objReg, RegTree, ErrorCode
     RegTree = HKEY_CURRENT_USER
-	Set objReg = GetObject("winmgmts:\\.\root\default:StdRegProv")
+    Set objReg = GetObject("winmgmts:\\.\root\default:StdRegProv")
 	
     'Note: CreateObject("System.Collections.ArrayList") does not support LBound and UBound
     For i = 0 To arrReg.Count - 1
@@ -135,8 +135,8 @@ Else
         If ErrorCode = 0 Then Exit For
     Next
     
-	'If url is null, set url to about:blank
-	If ErrorCode <> 0 Then url = "about:blank"
+    'If url is null, set url to about:blank
+    If ErrorCode <> 0 Then url = "about:blank"
     
     Set objReg = Nothing
     Set arrReg = Nothing
