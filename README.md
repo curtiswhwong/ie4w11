@@ -4,7 +4,9 @@ Hello all!
 
 By default, Windows 11 will redirect all Internet Explorer instances to the Edge browser unless you add the URLs to "Internet Explorer mode pages" but only for 30 days, and you have to extend the expiry every 30 days which is very inconvenient.  
 
-I am working in a hotel as an IT. A core application must be run on Internet Explorer with JRE installed but the Edge browser cannot handle. Thus, I made this vbscript for running native Internet Explorer on Windows 11 which also supports URL as a parameter.
+I am working in a hotel as an IT. A core application must be run on Internet Explorer with JRE installed but the Edge browser cannot handle. Thus, I made this vbscript for running native Internet Explorer on Windows 11 which also supports URL as a parameter.  
+
+While starting the ie4w11.vbs, it will terminate all hidden iexplore.exe and ielowutil.exe before creating a new instance of iexplore.exe.
 
 ## ie4w11.vbs  
 Main vbscript for running the native Internet Explorer on Windows 11
@@ -30,7 +32,7 @@ This zip file contains
 - ie4w11.dll
 - ie4w11.exe.manifest  
 
-**Complier**  
+## ie4w11.exe  
 ie4w11.exe is complied by VbsEdit from ie4w11.vbs.  
 
 **Usage**  
@@ -38,7 +40,6 @@ Unzip the zip file and put all these three files together in the same folder.
 
 **Syntax**  
 Same as ie4w11.vbs.
-
 
 ## Dependencies  
 Microsoft.NET Framework v2.0
